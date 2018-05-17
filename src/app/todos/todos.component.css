@@ -1,0 +1,16 @@
+.task {
+    background-color: grey;
+    margin-top: 10px;
+    border: 3px;
+    border-radius: 5px;
+}
+
+.rm-button {
+    margin: 20px;
+    min-width: 100px;
+}
+
+.task-text {
+    margin: 10px;
+    padding: 10px;
+}

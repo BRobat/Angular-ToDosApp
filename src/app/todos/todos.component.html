@@ -1,0 +1,15 @@
+<input #itemInput class="form-control" (keyup.enter)="addItem(itemInput)">
+
+<div *ngIf="tasks" class="item-group">
+  <div *ngFor="let item of tasks" class="task">
+    <p class="task-text">
+      {{ item }} \\
+      {{ today | date }} 
+      {{ today | date: 'shortTime' }}
+    </p>
+    <button type="button" (click)=removeItem(item) class="rm-button">
+     X
+    </button>
+  </div>
+
+</div>

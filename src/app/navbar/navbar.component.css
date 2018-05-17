@@ -1,0 +1,17 @@
+nav {
+    border-radius: 10px;
+}
+
+ul {
+    float: none;
+    margin: 0 auto;
+}
+
+li {
+    margin: 20px 60px 20px 60px;
+    text-align: center;
+}
+
+.centered {
+    margin: 0 auto;
+}
